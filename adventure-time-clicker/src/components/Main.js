@@ -7,7 +7,7 @@ import characters from "../assets/adventure.json"
 // var container = document.getElementsByClassName("container-fluid");
 
 
-class Main extends Component {
+class Main extends React.Component {
 
   state = {
     characters: characters,
@@ -17,34 +17,37 @@ class Main extends Component {
   }
 
   handleClick = id => {
-
-    const name = event.target.name;
+    let selectedCharacter = this.state.characters[id].name;
+    this.state.selected.push(selectedCharacter);
+    console.log(this.state.selected);
   }
 
   // shuffle();
 
-  shuffle = () => {
-    for (let i = 0; i < array.length; i++) {
-      var x = Math.floor(Math.random() * i);
-      var y = array[i];
-      array[i] = array[x];
-      array[x] = y;
-    }
-    console.log(array);
-  }
+  // shuffle = () => {
+  //   for (let i = 0; i < array.length; i++) {
+  //     var x = Math.floor(Math.random() * i);
+  //     var y = array[i];
+  //     array[i] = array[x];
+  //     array[x] = y;
+  //   }
+  //   console.log(array);
+  // }
 
   render() {
     return (
       <div className="wrapper">
-        {this.state.characters.map(characters => (
-          <Image
-            handleClick={this.handleClick}
-            id={characters.id}
-            key={characters.id}
-            name={characters.name}
-            image={characters.image}
-          />
-        ))}
+        <div className="container text-center" >
+          {this.state.characters.map(characters => (
+            <Image
+              handleClick={this.handleClick}
+              id={characters.id}
+              key={characters.id}
+              name={characters.name}
+              image={characters.image}
+            />
+          ))}
+        </div>
       </div>
     );
   }

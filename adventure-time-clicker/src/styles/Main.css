@@ -1,4 +1,4 @@
-.container-fluid {
+.wrapper {
     background-image: url("../assets/atbg.jpg");
     /*  background from https://wall.alphacoders.com/big.php?i=442435 */
     background-size: cover;
@@ -9,4 +9,12 @@
 .character{
   background-color: white;
   padding: 25px;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+.img{
+  height: 200px;
+  width: 200px;
 }

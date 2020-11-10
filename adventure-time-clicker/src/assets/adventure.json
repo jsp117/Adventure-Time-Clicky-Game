@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "finn",
+        "image": "adventure-time-clicker/src/assets/finn.png"
+    },
+    {
+        "id": 2,
+        "name": "jake",
+        "image": "adventure-time-clicker/src/assets/jake.png"
+    },
+    {
+        "id": 3,
+        "name": "marceline",
+        "image": "adventure-time-clicker/src/assets/marceline.png"
+    },
+    {
+        "id": 4,
+        "name": "pbg",
+        "image": "adventure-time-clicker/src/assets/pbg.png"
+    },
+    {
+        "id": 5,
+        "name": "bmo",
+        "image": "adventure-time-clicker/src/assets/bmo.png"
+    },
+    {
+        "id": 6,
+        "name": "iceking",
+        "image": "adventure-time-clicker/src/assets/iceking.png"
+    },
+    {
+        "id": 7,
+        "name": "flame",
+        "image": "adventure-time-clicker/src/assets/flame.png"
+    },
+    {
+        "id": 8,
+        "name": "lsp",
+        "image": "adventure-time-clicker/src/assets/lsp.png"
+    },
+    {
+        "id": 9,
+        "name": "lemongrab",
+        "image": "adventure-time-clicker/src/assets/lemongrab.png"
+    },
+    {
+        "id": 10,
+        "name": "gunther",
+        "image": "adventure-time-clicker/src/assets/gunther.png"
+    },
+    {
+        "id": 11,
+        "name": "peppermint",
+        "image": "adventure-time-clicker/src/assets/peppermint.png"
+    },
+    {
+        "id": 12,
+        "name": "prismo",
+        "image": "adventure-time-clicker/src/assets/prismo.png"
+    },
+]

@@ -17,13 +17,20 @@ class Main extends React.Component {
   }
 
   handleClick = id => {
-    console.log(this.state.characters);
+    let correct = this.state.correct;
+    console.log("all characters", this.state.characters);
     let selectedCharacter = this.state.characters[id].name;
     if (this.state.selected.includes(selectedCharacter)) {
+      correct = 0;
+      this.setState({correct: correct});
       return alert("You already clicked me!");
     } else {
       this.state.selected.push(selectedCharacter);
-      console.log(this.state.selected);
+     
+      correct += 1;
+      this.setState({correct: correct})
+      console.log("already selected characters", this.state.selected);
+      console.log("score", correct);
     }
 
   }

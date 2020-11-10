@@ -17,9 +17,15 @@ class Main extends React.Component {
   }
 
   handleClick = id => {
+    console.log(this.state.characters);
     let selectedCharacter = this.state.characters[id].name;
-    this.state.selected.push(selectedCharacter);
-    console.log(this.state.selected);
+    if (this.state.selected.includes(selectedCharacter)) {
+      return alert("You already clicked me!");
+    } else {
+      this.state.selected.push(selectedCharacter);
+      console.log(this.state.selected);
+    }
+
   }
 
   // shuffle();

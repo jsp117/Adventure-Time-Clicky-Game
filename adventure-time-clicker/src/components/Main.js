@@ -12,27 +12,30 @@ class Main extends React.Component {
     characters: characters,
     correct: 0,
     selected: [],
+    highscore: 0
 
   }
 
   handleClick = id => {
     let correct = this.state.correct;
     console.log("all characters", this.state.characters);
-    let selectedCharacter = this.state.characters[id-1].name;
+    let selectedCharacter = this.state.characters[id - 1].name;
     if (this.state.selected.includes(selectedCharacter)) {
       correct = 0;
-      this.setState({correct: correct});
+      this.setState({ correct: correct, selected: []});
+  
       return alert("You already clicked me!");
     } else {
-      this.state.selected.push(selectedCharacter);
-     
       correct += 1;
-      this.setState({correct: correct});
+      this.setState({ correct: correct, selected: this.state.selected.concat([selectedCharacter]) });
       this.shuffle();
       console.log("already selected characters", this.state.selected);
       console.log("score", correct);
     }
-
+    if(this.state.correct>this.state.highscore){
+      this.setState({highscore: correct});
+      // return alert("New High Score!");
+    }
   }
 
   // shuffle();
@@ -46,29 +49,29 @@ class Main extends React.Component {
       holder[x] = y;
     }
     console.log(holder);
-    this.setState({characters: holder})
+    this.setState({ characters: holder })
   }
 
   render() {
     return (
       <React.Fragment>
-      <Header score={this.state.correct}/>
-     
-      <div className="wrapper">
-        <div className="container">
-        <div className="text-center row" >
-          {this.state.characters.map(characters => (
-            <Image
-              handleClick={this.handleClick}
-              id={characters.id}
-              key={characters.id}
-              name={characters.name}
-              image={characters.image}
-            />
-          ))}
+        <Header score={this.state.correct} highscore={this.state.highscore} />
+
+        <div className="wrapper">
+          <div className="container">
+            <div className="text-center row" >
+              {this.state.characters.map(characters => (
+                <Image
+                  handleClick={this.handleClick}
+                  id={characters.id}
+                  key={characters.id}
+                  name={characters.name}
+                  image={characters.image}
+                />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
       </React.Fragment>
     );
   }

@@ -1,16 +1,27 @@
 .wrapper {
     background-image: url("../assets/atbg.jpg");
     /*  background from https://wall.alphacoders.com/big.php?i=442435 */
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    background-position: center;
+    height: 100vh;
     width: 100%;
   }
 
+
+.wrapper{
+  background-clip: content-box;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  position: relative;
+  top: -45px;
+}
+
 .character{
  background-color: white;
-  padding: 25px;
-  height: 250px;
-  width: 250px;
+  padding: 10px;
+  height: 225px;
+  width: 225px;
   margin: 10px;
   cursor: pointer; 
 }

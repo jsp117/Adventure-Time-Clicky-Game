@@ -10,3 +10,9 @@
   color: white;
   font-size: 3rem;
 }
+
+#highscore{
+  position: fixed;
+  right: 5%;
+  top:6%;
+}

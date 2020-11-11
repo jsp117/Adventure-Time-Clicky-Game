@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "./Image";
 import "../styles/Main.css";
-
+import Header from "./Header";
 import characters from "../assets/adventure.json";
 // var container = document.getElementsByClassName("container-fluid");
 
@@ -18,7 +18,7 @@ class Main extends React.Component {
   handleClick = id => {
     let correct = this.state.correct;
     console.log("all characters", this.state.characters);
-    let selectedCharacter = this.state.characters[id].name;
+    let selectedCharacter = this.state.characters[id-1].name;
     if (this.state.selected.includes(selectedCharacter)) {
       correct = 0;
       this.setState({correct: correct});
@@ -51,6 +51,9 @@ class Main extends React.Component {
 
   render() {
     return (
+      <React.Fragment>
+      <Header score={this.state.correct}/>
+     
       <div className="wrapper">
         <div className="container">
         <div className="text-center row" >
@@ -66,6 +69,7 @@ class Main extends React.Component {
           </div>
         </div>
       </div>
+      </React.Fragment>
     );
   }
 }

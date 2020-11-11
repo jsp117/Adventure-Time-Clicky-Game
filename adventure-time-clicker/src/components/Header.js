@@ -5,7 +5,7 @@ import "../styles/Header.css";
 
 function Header(props) {
   return (
-    <header className="header text-center">
+    <header className="header text-center container-fluid">
       <div className="row">
       <h1 className="col">Adventure Time Clicky Game</h1>
       </div>

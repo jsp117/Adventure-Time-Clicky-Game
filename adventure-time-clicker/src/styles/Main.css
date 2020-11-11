@@ -6,16 +6,23 @@
     background-position: center;
     height: 100vh;
     width: 100%;
+    background-clip: content-box;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    position: relative;
+    top: -45px;
+    overflow:hidden;
   }
-
-
-.wrapper{
-  background-clip: content-box;
-  padding-top: 45px;
-  padding-bottom: 45px;
-  position: relative;
-  top: -45px;
+.container{
+  padding-top: 50px;
 }
+
+/* @media only screen and (min-height: 920px) {
+  .wrapper{
+  
+  }
+} */
+
 
 .character{
  background-color: white;

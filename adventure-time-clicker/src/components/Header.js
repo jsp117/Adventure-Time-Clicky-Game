@@ -5,10 +5,15 @@ import "../styles/Header.css";
 
 function Header(props) {
   return (
-    <header className="header">
-      <h1>Adventure Time Clicky Game</h1>
-      <h2>Score: {props.score}</h2>
-      <h2 id="highscore">High Score: {props.highscore}</h2>
+    <header className="header text-center">
+      <div className="row">
+      <h1 className="col">Adventure Time Clicky Game</h1>
+      </div>
+      <div className="row">
+      <h4 className="col-sm-1">Score: {props.score}</h4>
+      <div className="col-sm-9"></div>
+      <h4 className="col" id="highscore">High Score: {props.highscore}</h4>
+      </div>
     </header>
   );
 }

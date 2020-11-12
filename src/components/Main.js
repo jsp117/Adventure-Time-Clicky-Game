@@ -2,6 +2,7 @@ import React from "react";
 import Image from "./Image";
 import "../styles/Main.css";
 import Header from "./Header";
+import Footer from "./Footer";
 import characters from "../assets/adventure.json";
 // var container = document.getElementsByClassName("container-fluid");
 
@@ -82,6 +83,7 @@ class Main extends React.Component {
             </div>
           </div>
         </div>
+        <Footer />
       </React.Fragment>
     );
   }

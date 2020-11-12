@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Adventure-Time-Clicky-Game/static/css/main.5dbf377f.chunk.css",
-    "main.js": "/Adventure-Time-Clicky-Game/static/js/main.faa9395a.chunk.js",
-    "main.js.map": "/Adventure-Time-Clicky-Game/static/js/main.faa9395a.chunk.js.map",
-    "runtime-main.js": "/Adventure-Time-Clicky-Game/static/js/runtime-main.b4064f3b.js",
-    "runtime-main.js.map": "/Adventure-Time-Clicky-Game/static/js/runtime-main.b4064f3b.js.map",
-    "static/js/2.914e902c.chunk.js": "/Adventure-Time-Clicky-Game/static/js/2.914e902c.chunk.js",
-    "static/js/2.914e902c.chunk.js.map": "/Adventure-Time-Clicky-Game/static/js/2.914e902c.chunk.js.map",
+    "main.css": "/Adventure-Time-Clicky-Game/static/css/main.e8762c49.chunk.css",
+    "main.js": "/Adventure-Time-Clicky-Game/static/js/main.27c9b432.chunk.js",
+    "main.js.map": "/Adventure-Time-Clicky-Game/static/js/main.27c9b432.chunk.js.map",
+    "runtime-main.js": "/Adventure-Time-Clicky-Game/static/js/runtime-main.d294ae83.js",
+    "runtime-main.js.map": "/Adventure-Time-Clicky-Game/static/js/runtime-main.d294ae83.js.map",
+    "static/js/2.38fda6e4.chunk.js": "/Adventure-Time-Clicky-Game/static/js/2.38fda6e4.chunk.js",
+    "static/js/2.38fda6e4.chunk.js.map": "/Adventure-Time-Clicky-Game/static/js/2.38fda6e4.chunk.js.map",
     "index.html": "/Adventure-Time-Clicky-Game/index.html",
-    "static/css/main.5dbf377f.chunk.css.map": "/Adventure-Time-Clicky-Game/static/css/main.5dbf377f.chunk.css.map",
-    "static/js/2.914e902c.chunk.js.LICENSE.txt": "/Adventure-Time-Clicky-Game/static/js/2.914e902c.chunk.js.LICENSE.txt",
+    "static/css/main.e8762c49.chunk.css.map": "/Adventure-Time-Clicky-Game/static/css/main.e8762c49.chunk.css.map",
+    "static/js/2.38fda6e4.chunk.js.LICENSE.txt": "/Adventure-Time-Clicky-Game/static/js/2.38fda6e4.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/Adventure-Time-Clicky-Game/static/media/atbg.2199b100.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b4064f3b.js",
-    "static/js/2.914e902c.chunk.js",
-    "static/css/main.5dbf377f.chunk.css",
-    "static/js/main.faa9395a.chunk.js"
+    "static/js/runtime-main.d294ae83.js",
+    "static/js/2.38fda6e4.chunk.js",
+    "static/css/main.e8762c49.chunk.css",
+    "static/js/main.27c9b432.chunk.js"
   ]
 }

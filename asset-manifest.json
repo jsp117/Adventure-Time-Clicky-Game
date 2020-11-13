@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Adventure-Time-Clicky-Game/static/css/main.e8762c49.chunk.css",
-    "main.js": "/Adventure-Time-Clicky-Game/static/js/main.27c9b432.chunk.js",
-    "main.js.map": "/Adventure-Time-Clicky-Game/static/js/main.27c9b432.chunk.js.map",
+    "main.css": "/Adventure-Time-Clicky-Game/static/css/main.9a6f7dc7.chunk.css",
+    "main.js": "/Adventure-Time-Clicky-Game/static/js/main.bb1e0c06.chunk.js",
+    "main.js.map": "/Adventure-Time-Clicky-Game/static/js/main.bb1e0c06.chunk.js.map",
     "runtime-main.js": "/Adventure-Time-Clicky-Game/static/js/runtime-main.d294ae83.js",
     "runtime-main.js.map": "/Adventure-Time-Clicky-Game/static/js/runtime-main.d294ae83.js.map",
     "static/js/2.38fda6e4.chunk.js": "/Adventure-Time-Clicky-Game/static/js/2.38fda6e4.chunk.js",
     "static/js/2.38fda6e4.chunk.js.map": "/Adventure-Time-Clicky-Game/static/js/2.38fda6e4.chunk.js.map",
     "index.html": "/Adventure-Time-Clicky-Game/index.html",
-    "static/css/main.e8762c49.chunk.css.map": "/Adventure-Time-Clicky-Game/static/css/main.e8762c49.chunk.css.map",
+    "static/css/main.9a6f7dc7.chunk.css.map": "/Adventure-Time-Clicky-Game/static/css/main.9a6f7dc7.chunk.css.map",
     "static/js/2.38fda6e4.chunk.js.LICENSE.txt": "/Adventure-Time-Clicky-Game/static/js/2.38fda6e4.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/Adventure-Time-Clicky-Game/static/media/atbg.2199b100.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d294ae83.js",
     "static/js/2.38fda6e4.chunk.js",
-    "static/css/main.e8762c49.chunk.css",
-    "static/js/main.27c9b432.chunk.js"
+    "static/css/main.9a6f7dc7.chunk.css",
+    "static/js/main.bb1e0c06.chunk.js"
   ]
 }

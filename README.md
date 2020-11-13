@@ -82,10 +82,8 @@ This code snippet displays where the Image component is rendered, along with the
 * JavaScript
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [NodeJS](https://nodejs.org/en/)
 * [Bootstrap](https://getbootstrap.com/)
 * [npm](https://www.npmjs.com/)
-* [Express](https://expressjs.com/)
 * [Github](https://github.com/)
 
 ## Author

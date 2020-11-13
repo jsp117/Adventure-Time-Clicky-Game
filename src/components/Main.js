@@ -67,7 +67,6 @@ class Main extends React.Component {
     return (
       <React.Fragment>
         <Header score={this.state.correct} highscore={this.state.highscore} />
-
         <div className="wrapper">
           <div className="container">
             <div className="text-center row" >
